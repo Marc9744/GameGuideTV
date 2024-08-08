@@ -1,0 +1,52 @@
+.home .hero {
+    /*background: url('path/to/hero-background.jpg') center center/cover no-repeat;*/
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .home .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home .hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .home .featured-games {
+    padding: 20px;
+  }
+  
+  .home .featured-games h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .home .games-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .home .game-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .home .game-card img {
+    border-radius: 4px;
+    max-width: 100%;
+  }
+  
+  .home .game-card h3 {
+    font-size: 1.25rem;
+    margin-top: 10px;
+  }

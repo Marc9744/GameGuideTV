@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #2c3e50;
+  padding: 1rem;
+}
+
+.navbar-logo a {
+  color: #ecf0f1;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-links a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.home .hero {
+  background-color: #34495e;
+  color: white;
+  padding: 5rem 1rem;
+}
+
+.home .hero h1 {
+  font-size: 3rem;
+}
+
+.home .hero p {
+  font-size: 1.25rem;
+}
+
+.home .featured-games {
+  padding: 2rem 1rem;
+}
+
+.home .featured-games h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.home .games-list {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.home .game-card {
+  background-color: #ecf0f1;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.home .game-card img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.home .game-card h3 {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+}

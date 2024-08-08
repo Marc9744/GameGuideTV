@@ -1,0 +1,11 @@
+{
+  "name": "gameguidetv",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start:client": "npm start --prefix client"
+  },
+  "workspaces": [
+    "client"
+  ]
+}
